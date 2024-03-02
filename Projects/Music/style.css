@@ -1,0 +1,385 @@
+*
+{
+    scroll-behavior: smooth;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: white;
+}
+body
+{
+/*     
+    background-image: url("neon\ bg.jpg");
+    background-size: 100vw 3000px;
+    background-repeat: no-repeat; */
+  /* background: radial-gradient(circle, rgb(177, 99, 255), black); */
+  
+  background: linear-gradient(to right, black 50%, darkblue 70%, rgb(177, 99, 255) 110%);
+    font-family: "Dekko"; font-size: 22px;
+}
+
+@media only screen and (max-width:800px)
+{
+    body
+    {
+        background-size: 800px 400vw;
+    }
+}
+@media only screen and (max-width:430px)
+{
+    body
+    {
+        background-size: 430px 1000vw;
+    }
+}
+@media only screen and (max-width:400px)
+{
+    body
+    {
+        background-size: 410px 1200vw;
+    }
+}
+@media only screen and (max-width:320px)
+{
+    body
+    {
+        background-size: 322px 1300vw;
+    }
+}
+
+nav
+{
+    display: flex;
+    flex-direction: row;
+    width: 81vw;
+    justify-content: space-between;
+    margin: -90px 9vw 2px 9vw;
+    border-radius: 35px;
+    border: 1px solid rgb(177, 99, 255);
+    position: fixed;
+    backdrop-filter: blur(6px);
+}
+h2
+{
+    color: rgb(177, 99, 255);
+    font-family: 'baloo bhai', sans-serif;
+}
+.logo
+{
+    margin: 5px;
+    padding-left: 3px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.logo img
+{
+    height: 50px;
+    border: 1px solid rgb(25, 79, 255);
+    border-radius: 50%;
+    margin: 10px;
+}
+.navcon
+{
+    display: flex;
+}
+.navbar
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.navbar div
+{
+    margin:0px 3vw 0px 3vw;
+    transition: transform ease 0.5s;
+    transform: scale(1);
+}
+.navbar div:hover
+{
+    transition: transform ease 0.3s;
+    transform: scale(1.1);
+}
+.navbar div a
+{
+    text-decoration: none; 
+}
+.navbar div a:hover
+{
+    color: rgb(177, 99, 255);
+}
+.watch
+{
+    margin: 0px 10px 0px 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.watch div a
+{
+    margin:0px 10px 0px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon
+{
+    height: 29px;
+    transition: transform ease 0.5s;
+    transform: scale(1);
+}
+.icon:hover
+{
+    transition: transform ease 0.3s;
+    transform: scale(1.09);
+}
+
+@media only screen and (max-width:900px)
+{
+    .logo img
+    {
+        height: 25px;
+    }
+    .logo h2 
+    {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width:800px)
+{
+    nav
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .logo h2 
+    {
+        font-size: 40px;
+    }
+    .navcon
+    {
+        margin: 0px 3px 0px 10px;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
+}
+
+@media only screen and (max-width:800px)
+{
+    nav
+    {
+        margin-top: -125px;
+    }
+}
+@media only screen and (max-width:500px)
+{
+    nav
+    {
+        margin: -180px 9vw 2px 9vw;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+    }
+    .navcon
+    {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+    }
+    .navbar div
+    {
+        margin: 10px;
+    }
+    .navbar div a
+    {
+        font-size: 4vw;
+    }
+    .watch div
+    {
+        font-size: 3.5vw;
+        display: flex;
+        margin: 2px;
+    }
+}
+
+/**/
+
+.body
+{
+    margin: 100px 10vw 2px 10vw;
+    background-image: url("photo1.jpg");
+    border-radius: 35px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    background-repeat: no-repeat;   
+    background-size: 80vw 550px;
+}
+@media only screen and (max-width:800px)
+{
+
+    .body
+    {
+        margin-top: 130px;
+        background-size: 124vw 600px; 
+    }
+}
+.heading
+{
+    margin-left: 6vw;
+    padding: 10px;
+}
+#h2
+{
+    color: rgb(177, 99, 255);
+}
+.songcards iframe
+{
+    height: 175px;
+    margin: 5px 25px 15px 25px;
+    border-radius: 25px;
+    box-shadow: rgba(177, 99, 255, 0.4) -3px 3px, rgba(177, 99, 255, 0.3) -6px 6px, rgba(177, 99, 255, 0.2) -9px 9px, rgba(177, 99, 255, 0.1) -12px 12px, rgba(177, 99, 255, 0.05) -15px 15px;
+}
+@media only screen and (max-width:500px)
+{
+    .body
+    {
+        margin-top: 190px;
+    }
+    .navbar
+    {
+        justify-content: space-evenly;
+    }
+    .watch div a
+    {
+        margin: 0px;
+    }
+    .songcards iframe
+    {
+        height: 35vw;
+        width: 60vw;
+    }
+}
+@media only screen and (max-width:420px)
+{
+    .logo h2 
+    {
+        font-size: 25px;
+    }
+
+}
+
+/**/
+
+.aboutcon
+{
+    margin: 25px 10vw 2px 12vw;
+}
+.about img
+{
+    height: 250px;
+    float: right;
+    margin: 20px;
+}
+.aboutimg img
+{
+    float: left;
+    margin-right: 20px;
+    height: 230px;
+}
+@media only screen and (max-width:500px)
+{
+    .aboutcon
+    {
+        margin-top: 10px;
+    }
+    .about h2 
+    {
+        display: flex;
+        justify-content: center;
+    }
+    .about img
+    {
+        height: 145px;
+        margin: 5px;
+    }
+}
+/***/
+
+.otherpro
+{
+    margin: 35px 10vw 2px 10vw;
+    border-radius: 35px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    background-image: url("lastbg.png");
+    background-repeat: no-repeat;   
+    background-size: 80vw 500px;
+}
+.lastheading
+{
+    display: flex;
+    justify-content: center;
+}
+.lastheading h2
+{
+    margin: 10px;
+}
+.songcon
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-shrink: inherit;
+    flex-wrap: wrap;
+}
+.song iframe
+{
+    border-radius: 25px;
+    height: 170px;
+    margin: 15px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+
+@media only screen and (max-width:900px)
+{
+    .otherpro
+    {
+        background-size: 80vw 1000px;
+    }
+}
+@media only screen and (max-width:500px)
+{
+    .otherpro
+    {
+        background-size: 80vw 210vw;
+    }
+    .song iframe 
+    {
+        height: 150px;
+        width: 270px;
+    }
+    .songcon iframe
+    {
+        height: 35vw;
+        width: 60vw;
+    }
+}
+
+/***/
+
+footer
+{
+    border-top: 1px solid rgb(177, 99, 255);
+    color: white;
+    margin: 25px 10vw 5px 10vw;
+    padding: 3px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

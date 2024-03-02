@@ -1,0 +1,184 @@
+body
+{
+    margin: 0px;
+    background-color: rgb(193, 193, 193);
+}
+.logo
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin: 10px 5vw 10px 5vw;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+#logoimg img
+{
+    height: 100px;
+    margin: 15px;
+    border-radius: 15px;
+}
+h2
+{
+    margin: 3px;
+    font-family: 'baloo bhai';
+}
+p
+{
+    margin: 5px 5px 20px 5px;
+    font-family: cursive;
+}
+.gallery
+{
+    margin: 0px 5vw 5px 5vw;
+    /* border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px; */
+}
+.mainarts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+@media only screen and (max-width: 500px) 
+{
+    #logoimg img
+    {
+        height: 60px;
+    }
+    .mainarts 
+    {
+        flex-direction: column;
+    }
+    .box
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.box
+{
+    margin: 10px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+.box div
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 25px 0px 25px;
+}
+
+.box img
+{
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    height: 30vw;
+    margin: 20px;
+}
+.art
+{
+    height: 100px;
+}
+
+/**/
+
+
+.award
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 25px;
+    background-color: white;
+    margin-top: 20px;
+    padding: 30px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.award div
+{
+    margin: 10px;
+}
+.awardimg img
+{
+    height: 15vw;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+@media only screen and (max-width: 500px) 
+{
+    .award
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .awardimg img 
+    {
+        height: 150px;
+    }
+}
+/***/
+
+.morearts
+{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    border-radius: 25px;
+    margin-top: 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.morearts div
+{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+.sketch img
+{
+    margin: 5px;
+    height: 15vw;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+@media only screen and (max-width: 500px)
+{
+    .sketch
+    {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .sketch img
+    {
+        height: 150px;
+    }
+}
+
+/**/
+footer
+{
+    margin-top: 10px;
+    background-color: white;
+    color: grey;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    font-family: 'baloo bhai';
+}
+
+
+
+
+
+

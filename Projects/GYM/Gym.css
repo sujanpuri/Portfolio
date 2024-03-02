@@ -1,0 +1,385 @@
+
+*
+{
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0px;
+}
+.profilecont
+{
+    color: white;
+    width: 100vw;
+    font-family: cursive;
+    background-image: url("Gym.jpg");
+    background-size: 100vw 40vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media only screen and (max-width:800px)
+{
+.profilecont
+{
+    color: white;
+    width: 100vw;
+    font-family: cursive;
+    background-image: url("Gym.jpg");
+    background-size: 100vw 100vw;
+    background-repeat: no-repeat;
+}
+}
+/* NAV BAR*/
+.navcont
+{
+    font-size: 2vw;
+    /* margin: 1vw; */
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+@media only screen and (max-width:800px)
+{
+    .navcont
+    {
+        font-size: 4.5vw;
+        /* margin: 1vw; */
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
+/***/
+.icon
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1vw;
+}
+@media only screen and (max-width:800px)
+{
+    .icon
+    {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1vw;
+    }
+}
+.icon div
+{
+    margin: 0px 1vw 0px 1vw;
+    display: flex;
+    align-items: center;
+}
+.icon img
+{
+    border-radius: 100%;
+    height: 5vw;
+}
+@media only screen and (max-width:800px)
+{
+    .icon img
+    {
+        border-radius: 100%;
+        height: 10vw;
+    }
+}
+/***/
+.nav
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav div
+{
+    font-size: 4.5vw;
+    list-style: none;
+    text-decoration: none;
+    margin: 0px 30px 0px 5px;
+    transition: transform 1s ease;
+    transform: scale(1);
+}
+.nav div a{
+    color: white;
+    text-decoration-line: none;
+}
+.nav div:hover
+{
+    color: red;
+    font-size: 4.5vw;
+    list-style: none;
+    margin: 0px 30px 0px 5px;
+    transition: transform 0.5s ease;
+    transform: scale(1.07);
+}
+.nav div a:hover
+{
+    color: greenyellow;
+    text-decoration-line: none;
+}
+/* .nav div:active
+{
+    height: 4vw;
+    color: blue;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+} */
+
+
+/*PROFILE*/
+.profile
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.profile div
+{
+    font-size: 4vw;
+    margin: 3vw 2vw 5vw 1vw;
+}
+@media only screen and (max-width:800px)
+{
+    .profile div
+    {
+        font-size: 5vw;
+        margin: 3vw 2vw 5vw 1vw;
+    }
+}
+.banner
+{
+    padding: 5px;
+    border-top: 1px solid greenyellow;
+    border-top-right-radius: 12vw;
+}
+.banner p
+{
+    margin: 0px;
+    display: flex;
+    justify-content: left;
+}
+.moto
+{
+    border-bottom: 1px solid greenyellow;
+    border-bottom-left-radius: 12vw;    
+}
+.moto p
+{
+    margin: 0px;
+    display: flex;
+    justify-content: right;
+}
+
+/* About Us */
+.aboutcont
+{
+    width: 97vw;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+@media only screen and (max-width:800px)
+{
+.aboutcont
+{
+    width: 97vw;
+    margin: 10px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+}
+.about
+{
+    border: 0.5px solid black;
+    padding: 1vw;
+    width: 64vw;
+    height: 20vw;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+}
+@media only screen and (max-width:800px)
+{
+.about
+{
+    border: 0.5px solid black;
+    padding: 1vw;
+    margin: 5px;
+    width: 95vw;
+    height: 50vw;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+}
+.about h1
+{
+    margin: 0px;
+}
+.aboutphotos img
+{
+    border-radius: 15px;
+    width: 30vw;
+    transition: transform 1s ease;
+    transform: scale(1);
+}
+.aboutphotos img:hover
+{
+    transition: transform 1s ease;
+    transform: scale(1.045);
+}
+
+/* SERVICES */
+.servicecont
+{
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+@media only screen and (max-width:800px)
+{
+    .servicecont
+{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+}
+.servicephotos img
+{
+    width: 30vw;
+    border-radius: 15px;
+    transition: transform 1s ease;
+    transform: scale(1);
+}
+.servicephotos img:hover
+{
+    transition: transform 1s ease;
+    transform: scale(1.045);
+}
+.service
+{
+    border: 0.5px solid black;
+    width: 80vw;
+    height: 20vw;
+    padding: 0vw 1vw 0 1vw;
+    margin-left: 1vw;
+    display: flex;
+    flex-direction: column; 
+    overflow: auto;
+}
+@media only screen and (max-width:800px)
+{
+.service
+{
+    border: 0.5px solid black;
+    width: 95vw;
+    height: 50vw;
+    padding: 0vw 1vw 0 1vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: auto;
+}
+}
+.service h1
+{
+    margin: 0px;
+}
+
+/* PHOTOS */
+
+.photos div
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.photos h1
+{
+    display: flex;
+    justify-content: center;
+}
+.img img
+{
+    margin: 5px;
+    height: 19vw;
+    width: 29vw;
+    border-radius: 20px;
+    transition: transform 0.8s ease;
+    transform: scale(1);
+}
+.img img:hover
+{
+    height: 19vw;
+    width: 29vw;
+    border-radius: 20px;
+    transition: transform 1s ease;
+    transform: scale(1.05);
+}
+
+/* FORM */
+
+.formcont
+{
+    margin: 10px;
+    background-color: rgb(202, 200, 200);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form
+{
+    border: 2px solid green;
+    border-radius: 15px;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.input
+{
+    width: 30vw;
+}
+.button
+{
+    margin: 10px;
+    transition: transform 0.5s ease;
+    transform: scale(1);
+}
+.button:hover
+{
+    transition: transform 1s ease;
+    transform: scale(1.1);
+}
+
+/* FOOTER */
+
+footer
+{
+    background-color: rgb(81, 81, 81);
+    color: white;
+    font-family: cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
