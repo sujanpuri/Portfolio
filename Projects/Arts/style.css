@@ -88,6 +88,46 @@ p
     height: 100px;
 }
 
+.paint_cont{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    border-radius: 25px;
+    margin-top: 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.paint_cont div
+{
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.painting{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+
+.painting img{
+    
+    height: 22vw;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+@media only screen and (max-width: 500px) 
+{
+    .painting{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .painting img{
+        height: 150px;
+        margin: 10px;
+    }
+}
+
 /**/
 
 
@@ -106,7 +146,7 @@ p
 {
     margin: 10px;
 }
-.awardimg img
+.awarding img
 {
     height: 15vw;
     border-radius: 25px;
@@ -121,7 +161,7 @@ p
         justify-content: center;
         align-items: center;
     }
-    .awardimg img 
+    .awarding img 
     {
         height: 150px;
     }
