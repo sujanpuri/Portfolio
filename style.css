@@ -476,6 +476,7 @@ body
         color: black;
         text-align: right;
         margin: 0px;
+        display: none;
     }
     #me
     {
@@ -484,10 +485,10 @@ body
     }
     #note_me
     {
-        display: flex;
+        /* display: flex;
         flex-direction: row-reverse;
         justify-content: space-between;
-        align-items: center;
+        align-items: center; */
         margin: 10px 15px 0px 15px;
     }
     #find
@@ -535,10 +536,10 @@ body
     }
     #note_me
     {
-        display: flex;
+        /* display: flex;
         flex-direction: row-reverse;
         justify-content: space-between;
-        align-items: center;
+        align-items: center; */
         margin: 15px 15px 0px 15px;
     }
     #find
@@ -576,13 +577,6 @@ body
     {
         font-size: 25px;
         margin: 0px;
-    }
-    #note_me
-    {
-        display: flex;
-        flex-direction: row-reverse;
-        justify-content: space-between;
-        align-items: center;
     }
     #note_me
     {
@@ -645,13 +639,16 @@ body
 #about_me p
 {
     font-size: 20px;
+    margin-bottom: 0px;
     text-align: justify;
 }
 
 .skillcont
 {
     display: flex;
-    justify-content: start;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
     flex-wrap: wrap;
 }
 .skills
@@ -661,6 +658,27 @@ body
     padding: 3px 15px 3px 15px;
     margin: 5px;
     border-radius: 8px;
+}
+.lang{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    flex-wrap: wrap;
+}
+.lang h4{
+    font-size: 20px;
+}
+.langcont
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#out
+{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
 }
 
 /* Projects */
