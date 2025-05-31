@@ -671,13 +671,13 @@ body
 .langcont
 {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
 }
 #out
 {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     margin: 20px;
 }
 
